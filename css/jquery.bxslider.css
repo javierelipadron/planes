@@ -1,0 +1,337 @@
+.cont-carrusel {
+    position: relative;
+    margin-bottom: 15px
+}
+
+.bx-wrapper {
+    position: relative;
+    margin: 0 auto 0;
+    padding: 0;
+    *zoom: 1
+}
+
+.bx-wrapper img {
+    max-width: 100%;
+    width: 100%;
+    display: block
+}
+
+.bxslider .bxBoxBg {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+    min-height: 368px;
+    height: 413px;
+    background-position: center center!important
+}
+@media screen and (max-width: 786px) {
+    .bxslider .bxBoxBg {
+        min-height: inherit;
+        height: auto;
+    }
+}
+.bx-wrapper .bx-viewport {
+    background: #fff
+}
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+    position: absolute;
+    bottom: -30px;
+    width: 100%
+}
+
+.bx-wrapper .bx-loading {
+    min-height: 50px;
+    background: url(../img/bxslider/bx_loader.gif) center center no-repeat #fff;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2000
+}
+
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .85em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+    position: absolute;
+    bottom: 30px
+}
+
+.bx-wrapper .bx-pager .bx-pager-item,
+.bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+    display: inline-block;
+    *zoom: 1;
+    *display: inline
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a {
+    background: url(../img/bxslider/ico-pagination.png) no-repeat;
+    text-indent: -9999px;
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    outline: 0
+}
+
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active {
+    background: url(../img/bxslider/ico-pagination-active.png) no-repeat
+}
+
+#bx-pager {
+    margin: auto;
+    text-align: center;
+    height: 20px;
+    z-index: 2
+}
+
+#bx-pager a {
+    background: url(../img/bxslider/ico-pagination.png) center bottom no-repeat;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 19px;
+    height: 19px;
+    margin: 0 6px;
+    outline: 0;
+    font-family: 'Trebuchet MS', Arial;
+    font-size: 14px;
+    color: #666
+}
+
+#bx-pager a:hover {
+    background: url(../img/bxslider/ico-pagination-hover.png) center bottom no-repeat;
+    color: #FFF
+}
+
+#bx-pager a.active {
+    background: url(../img/bxslider/ico-pagination-active.png) center bottom no-repeat;
+    color: #FFF
+}
+
+#bx-pager-m {
+    margin: auto;
+    text-align: center;
+    height: 20px;
+    z-index: 2
+}
+
+#bx-pager-m a {
+    background: url(../img/bxslider/ico-pagination.png) center bottom no-repeat;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 19px;
+    height: 19px;
+    margin: 0 6px;
+    outline: 0;
+    font-family: 'Trebuchet MS', Arial;
+    font-size: 14px;
+    color: #666
+}
+
+#bx-pager-m a:hover {
+    background: url(../img/bxslider/ico-pagination-hover.png) center bottom no-repeat;
+    color: #FFF
+}
+
+#bx-pager-m a.active {
+    background: url(../img/bxslider/ico-pagination-active.png) center bottom no-repeat;
+    color: #FFF
+}
+
+.bx-wrapper .bx-prev {
+    left: 10px;
+    background: url(../img/bxslider/controls.png) no-repeat 0 -32px
+}
+
+.bx-wrapper .bx-next {
+    right: 10px;
+    background: url(../img/bxslider/controls.png) no-repeat -43px -32px
+}
+
+.bx-wrapper .bx-prev:hover {
+    background-position: 0 0
+}
+
+.bx-wrapper .bx-next:hover {
+    background-position: -43px 0
+}
+
+.bx-wrapper .bx-controls-direction a {
+    position: absolute;
+    top: 50%;
+    margin-top: -16px;
+    outline: 0;
+    width: 32px;
+    height: 32px;
+    text-indent: -9999px;
+    z-index: 9999
+}
+
+.bx-wrapper .bx-controls-direction a.disabled {
+    display: none
+}
+
+.bx-wrapper .bx-controls-auto {
+    text-align: center
+}
+
+.bx-wrapper .bx-controls-auto .bx-start {
+    display: block;
+    text-indent: -9999px;
+    width: 10px;
+    height: 11px;
+    outline: 0;
+    background: url(../img/bxslider/controls.png) -86px -11px no-repeat;
+    margin: 0 3px
+}
+
+.bx-wrapper .bx-controls-auto .bx-start:hover,
+.bx-wrapper .bx-controls-auto .bx-start.active {
+    background-position: -86px 0
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop {
+    display: block;
+    text-indent: -9999px;
+    width: 9px;
+    height: 11px;
+    outline: 0;
+    background: url(../img/bxslider/controls.png) -86px -44px no-repeat;
+    margin: 0 3px
+}
+
+.bx-wrapper .bx-controls-auto .bx-stop:hover,
+.bx-wrapper .bx-controls-auto .bx-stop.active {
+    background-position: -86px -33px
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-pager {
+    text-align: left;
+    width: 80%
+}
+
+.bx-wrapper .bx-controls.bx-has-controls-auto.bx-has-pager .bx-controls-auto {
+    right: 0;
+    width: 35px
+}
+
+.bx-wrapper .bx-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: #666\9;
+    background: rgba(80, 80, 80, 0.75);
+    width: 100%
+}
+
+.bx-wrapper .bx-caption span {
+    color: #fff;
+    font-family: Arial;
+    display: block;
+    font-size: .85em;
+    padding: 10px
+}
+
+#sliderwrap {
+    width: 100%;
+    min-width: 990px;
+    min-height: 413px;
+    position: relative
+}
+
+.bxslider {
+    height: 413px
+}
+@media screen and (max-width: 786px) {
+    #bx-pager a {
+        background: url(../img/bxslider/ico-pagination.png) center bottom no-repeat;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        width: 19px;
+        height: 19px;
+        margin: 0 6px;
+        outline: 0;
+        font-family: 'Trebuchet MS', Arial;
+        font-size: 14px;
+        color: #666
+    }
+
+    #bx-pager a:hover {
+        background: url(../img/bxslider/ico-pagination-hover.png) center bottom no-repeat;
+        color: #FFF
+    }
+
+    #bx-pager a.active {
+        background: url(../img/bxslider/ico-pagination-active.png) center bottom no-repeat;
+        color: #FFF
+    }
+    #sliderwrap {
+        width: 100%;
+        min-width: 0;
+        min-height: 0;
+        position: relative
+    }
+
+    .bxslider {
+        height: auto;
+    }
+}
+@media screen and (max-width: 639px) {
+    #bx-pager {
+        margin: auto;
+        text-align: center;
+        height: 10px;
+        z-index: 2
+    }
+
+    #bx-pager a {
+        background: url(../img/bxslider/ico-pagination.png) center bottom no-repeat;
+        background-size: 9px 9px;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+        text-decoration: none;
+        width: 9px;
+        height: 9px;
+        margin: 0 6px;
+        outline: 0;
+        font-family: 'Trebuchet MS', Arial;
+        font-size: 14px;
+        color: #666
+    }
+
+    #bx-pager a:hover {
+        background: url(../img/bxslider/ico-pagination-hover.png) center bottom no-repeat;
+        background-size: 9px 9px;
+        color: #FFF
+    }
+
+    #bx-pager a.active {
+        background: url(../img/bxslider/ico-pagination-active.png) center bottom no-repeat;
+        background-size: 9px 9px;
+        color: #FFF
+    }
+    #sliderwrap {
+        width: 100%;
+        min-width: 0;
+        min-height: 0;
+        position: relative
+    }
+
+    .bxslider {
+        height: auto;
+    }
+}

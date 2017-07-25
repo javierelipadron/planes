@@ -1,0 +1,164 @@
+<div class="clearfix inf-stretcher">
+                <div class="dk-b">
+                    <table class="velocidades">
+                        <thead>
+                            <tr>
+                                <td>Red</td>
+                                <td colspan="2">Velocidad máxima</td>
+                                <td colspan="2">Velocidad promedio nacional</td>
+                                <td colspan="2">Velocidad promedio internacional</td>
+                            </tr>
+                            <tr>
+                                <td></td>
+                                <td>Descarga</td>
+                                <td>Subida</td>
+                                <td>Descarga</td>
+                                <td>Subida</td>
+                                <td>Descarga</td>
+                                <td>Subida</td>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>3.5G</td>
+                                <td>4 <small>Mbps</small></td>
+                                <td>1,5 <small>Mbps</small></td>
+                                <td>1,5 <small>Mbps</small></td>
+                                <td>600 <small>Kbps</small></td>
+                                <td>500 <small>Kbps</small></td>
+                                <td>64 <small>Kbps</small></td>
+                            </tr>
+                            <tr>
+                                <td>4GLTE</td>
+                                <td>20 <small>Mbps</small></td>
+                                <td>4 <small>Mbps</small></td>
+                                <td>4 <small>Mbps</small></td>
+                                <td>600 <small>Kbps</small></td>
+                                <td>500 <small>Kbps</small></td>
+                                <td>64 <small>Kbps</small></td>
+                            </tr>
+                            <tr>
+                                <td>4GLTE ADVANCED</td>
+                                <td>40 <small>Mbps</small></td>
+                                <td>4 <small>Mbps</small></td>
+                                <td>10 <small>Mbps</small></td>
+                                <td>1,5 <small>Mbps</small></td>
+                                <td>500 <small>Kbps</small></td>
+                                <td>64 <small>Kbps</small></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="m-b">
+                    <table class="vel-m">
+                        <thead>
+                            <tr>
+                                <th><b>Red</b></th>
+                                <th></th>
+                                <th colspan="2"><b>Velocidad máxima</b></th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Descarga</th>
+                                <th>Subida</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>3.5G</td>
+                                <td></td>
+                                <td>4 <span class="-sm">Mbps</span></td>
+                                <td>1,5 <span class="-sm">Mbps</span></td>
+                            </tr>
+                            <tr>
+                                <td>4GLTE</td>
+                                <td></td>
+                                <td>20 <span class="-sm">Mbps</span></td>
+                                <td>4 <span class="-sm">Mbps</span></td>
+                            </tr>
+                            <tr>
+                                <td>4GLTE ADVANCED</td>
+                                <td></td>
+                                <td>40 <span class="-sm">Mbps</span></td>
+                                <td>4 <span class="-sm">Mbps</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="vel-m">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th colspan="2"><b>Velocidad promedio nacional</b></th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Descarga</th>
+                                <th>Subida</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>3.5G</td>
+                                <td></td>
+                                <td>1,5 <span class="-sm">Mbps</span></td>
+                                <td>600 <span class="-sm">Kbps</span></td>
+                            </tr>
+                            <tr>
+                                <td>4GLTE</td>
+                                <td></td>
+                                <td>4 <span class="-sm">Mbps</span></td>
+                                <td>600 <span class="-sm">Kbps</span></td>
+                            </tr>
+                             <tr>
+                                <td>4GLTE ADVANCED</td>
+                                <td></td>
+                                <td>10 <span class="-sm">Mbps</span></td>
+                                <td>1,5 <span class="-sm">Mbps</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <table class="vel-m">
+                        <thead>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th colspan="2"><b>Velocidad promedio internacional</b></th>
+                            </tr>
+                            <tr>
+                                <th></th>
+                                <th></th>
+                                <th>Descarga</th>
+                                <th>Subida</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>3.5G</td>
+                                <td></td>
+                                <td>500 <span class="-sm">Kbps</span></td>
+                                <td>64 <span class="-sm">Kbps</span></td>
+                            </tr>
+                            <tr>
+                                <td>4GLTE</td>
+                                <td></td>
+                                <td>500 <span class="-sm">Kbps</span></td>
+                                <td>64 <span class="-sm">Kbps</span></td>
+                            </tr>
+                             <tr>
+                                <td>4GLTE ADVANCED</td>
+                                <td></td>
+                                <td>500 <span class="-sm">Kbps</span></td>
+                                <td>64 <span class="-sm">Kbps</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <ul class="lista">
+                <li><p>Las velocidades promedio y máximas publicadas son teóricas en zonas con cobertura 3,5G y 4G, utilizando el terminal o módem compatible para cada red y considerando condiciones o limitaciones geográficas que puedan afectar la propagación de la señal de la red. </p></li>
+
+                <li><p>La cobertura de la red 4G LTE es mayormente en espacios abiertos (outdoor) y la cobertura en espacios cerrados (indoor) se ajusta a la obligación establecida por la Subsecretaría de Telecomunicaciones para esta concesión. Más detalle de cobertura en www.entel.cl/4g.</p></li>
+            </ul>

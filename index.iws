@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta content=" Planes Telefonía Móvil - Entel" name="Title">
+        <title> Planes Telefonía Móvil - Entel</title>
+        <meta content="Encuentra acá planes Multimedia o Voz para tu celular. Revisa las promociones al contratar un plan." name="Description">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+                
+
+        <meta http-equiv="cache-control" content="max-age=0" />
+        <meta http-equiv="cache-control" content="no-cache" />
+        <meta http-equiv="expires" content="0" />
+        <meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+        <meta http-equiv="pragma" content="no-cache" />
+
+
+        <!-- METAS NUEVO HEADER -->
+        <!--#include virtual="/personas/home/includes/meta.iws" -->
+
+        <!--#include virtual="/personas/inc/src/css.iws" -->
+
+
+       
+        <!-- TAG MANAGER -->
+        <!--#include virtual="/personas/home/includes/tag-manager.iws" -->
+
+        <link href="css/paddings-margins.css" rel="stylesheet">
+        <link href="css/planes-main.css" rel="stylesheet">
+
+    </head>
+    <body>
+
+    <!-- TAG MANAGER NOSCRIPT -->
+    <!--#include virtual="/personas/home/includes/tag-manager-no-script.iws" -->
+
+     <!-- HEADER -->
+     <!--#include virtual="/personas/home/includes/header.iws" -->
+
+    <div class="container">
+
+        <!-- SECCION 1 :: TITULO INICIAL -->
+
+        <div class="seccion1">
+            <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                    <h1 class="t1">_Conexión ilimitada</h1>
+                </div>
+                <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
+                    <p class="t2">_consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum soci is natoque penatibus et magnis dis parturient.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 text-right margin-t-40" >
+                    <a class="t3">Ver oferta controlada</a>
+                </div>                
+            </div>
+        </div>
+
+        <!-- SECCION 2 :: PLANES -->
+
+        <div class="seccion2">
+            <div class="row tabs">
+                <div class="col-lg-3 col-md-3 col-sm-6 hidden-xs tab" data-key="1">
+                    <p class="t1">Plan</p>
+                    <h1 class="t2">25 GB</h1>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 hidden-xs tab" data-key="2">
+                    <p class="t1">Plan</p>
+                    <h1 class="t2">Ilimitado</h1>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-6 hidden-xs tab" data-key="3">
+                    <p class="t1">Plan</p>
+                    <h1 class="t2">Ilimitado HD</h1>
+                </div>
+            </div>
+
+            <div class="content-tabs">
+                
+                <div class="tabs-1 row">
+
+                    <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12 col1">
+                        <p class="t1"> Redes y música <span>ilimitadas</span>:</p>
+                        <p class="t1"> Cuota de datos libres:</p>
+                        <p class="t1"> Minutos y SMS:</p>
+
+                    </div>
+
+                    <div class="col-lg-5 col-md-3 col-sm-6 col-xs-12 col2">
+                        <p><img src="redes-sociales1.png"></p>
+                        <p class="t1"> 25 GB</p>
+                        <p class="t2"> Ilimitados</p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col3 ">
+
+                        <p class="t1"> Precio normal</p>
+                        <p class="t2" > 25.990</p>
+
+                        <p class="t3"> Contratando plan <b>On Line</b></p>
+                        <p class="t4" > 23.991</p>
+                        <p class="t5" > Primeros 12 meses</p>
+
+                        <a class="btn-accion" > [ Lo quiero_</a>
+
+                    </div>
+
+                </div>
+
+                <div class="tabs-2 row">
+
+
+                    <div class="col-lg-9 col-md-3 col-sm-6 col-xs-12 col4">
+                        <
+                        <p class="t1">El plan es totalmente</p>
+                        <p class="t2"> ILIMITADO</p>
+                        <p class="t3">en GB, Minutos y SMS.</p>
+                        <p class="t4">Disfruta de una navegación ilimitada con <span>calidad optimizada</span>, sin tiempos de espera, para tener una mejor experiencia. <img src="img/icon/info.png" /> </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col3 ">
+
+                        <p class="t1"> Precio normal</p>
+                        <p class="t2" > 32.990</p>
+
+                        <p class="t3"> Contratando plan <b>On Line</b></p>
+                        <p class="t4" > 36.355</p>
+                        <p class="t5" > Primeros 12 meses</p>
+                        <a class="btn-accion" > [ Lo quiero_</a>
+
+                    </div>
+
+                </div>
+
+                <div class="tabs-3 row">
+
+                    <div class="col-lg-9 col-md-3 col-sm-6 col-xs-12 col4">
+                       
+                        <p class="t1">El plan es totalmente</p>
+                        <p class="t2"> ILIMITADO</p>
+                        <p class="t3">en GB, Minutos y SMS.</p>
+                        <p class="t4">Disfruta de una navegación ilimitada con <span>alidad HD</span>, sin tiempos de espera, para tener una mejor experiencia. <img src="img/icon/info.png" /> </p>
+                    </div>
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col3 ">
+
+                        <p class="t1"> Precio normal</p>
+                        <p class="t2" > 39.990</p>
+
+                        <p class="t3"> Precio normal</p>
+                        <p class="t4" > 29.991</p>
+                        <a class="btn-accion" > [ Lo quiero_</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="seccion3" >   
+            <div class="row">
+            
+                <div class="col-lg-12">
+                    <h2 class="t1"> [ Súmale un <span>_equipo</span> a tu plan y llévatelo en cómodas cuotas </h2>
+                </div>
+
+
+
+            </div>
+
+            <div class="row">
+                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 col1">
+
+                      <div class="row carousel slide" id="myCarousel">
+                          <div class="carousel-inner">
+
+                            <div class="item active">
+                                <!--#include file="includes/telefono1.iws" -->
+                            </div>
+
+                            <div class="item ">
+                                <!--#include file="includes/telefono2.iws" -->
+                            </div>
+
+                            <div class="item ">
+                                <!--#include file="includes/telefono3.iws" -->
+                            </div>
+
+                            <div class="item ">
+                                <!--#include file="includes/telefono4.iws" -->
+                            </div>
+
+                          </div>
+                            <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="img/carousel-left.png" /> </a>
+                            <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="img/carousel-right.png" /> </a>
+                        </div>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+
+
+                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col2 ">
+
+                        <p class="t1"> Pago inicial desde</p>
+                        <p class="t2" > $149.990</p>
+
+                        <p class="t3"><span>+18 cuotas</span> de</p>
+                        <p class="t4" > $10.990</p>
+                        <p class="t5" > con cargo a la</p>
+                        <p class="t6" > boleta mensual(*)</p>
+
+
+                        <p class="t7"> Plan  <span>+</span> Equipo </p>
+                        <p class="t8" > $47.345</p>
+                        <p class="t9" > Primeros 12 meses</p>
+                        <p class="t10" > boleta mensual(*) <img src="img/icon/info.png"/></p>
+
+                        <a class="btn-accion2" > [ Lo quiero_</a>
+
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+      
+
+
+
+            <div class="background-cinco row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding margin-t-40">
+
+                        <div class="panel-group strecher-blue">
+                            <div class="panel panel-default">
+                                <div class="panel-heading"  data-toggle="collapse" href="#collapse1">
+                                    <h4 class="row panel-title nomargin">
+                                     <div class="col-xs-10 col-sm-11 col-md-11 col-lg-11 strecher-title">
+                                         Debes Saber
+                                     </div>
+                                     <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
+                                        <img class="btn-strecher-blue" src="img/strecher-mas.png">
+                                  </div>
+                              </h4>
+                          </div>
+                          <div id="collapse1" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                        
+                                    <!--#include file="tabs/debes-saber.iws" -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding ">
+
+                <div class="panel-group strecher-blue">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" data-toggle="collapse" href="#collapse2">
+                                <h4 class="row panel-title nomargin">
+                                 <div class="col-xs-10 col-sm-11 col-md-11 col-lg-11 strecher-title">
+                                    Velocidades
+                                </div>
+                                <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
+                                    <img class="btn-strecher-blue" src="img/strecher-mas.png">
+                              </div>
+                          </h4>
+                      </div>
+                      <div id="collapse2" class="panel-collapse collapse">
+                        <div class="panel-body">
+                                
+                                    <!--#include file="tabs/velocidades.iws" -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        </div>
+
+       
+
+
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding ">
+
+        <div class="panel-group strecher-blue">
+            <div class="panel panel-default">
+                <div class="panel-heading"  data-toggle="collapse" href="#collapse5" >
+                    <h4 class="row panel-title nomargin">
+                     <div class="col-xs-10 col-sm-11 col-md-11 col-lg-11 strecher-title">
+                        Preguntas Frecuentes
+                    </div>
+                    <div class="col-xs-2 col-sm-1 col-md-1 col-lg-1 text-right">
+                          <img class="btn-strecher-blue" src="img/strecher-mas.png">
+                  </div>
+              </h4>
+          </div>
+          <div id="collapse5" class="panel-collapse collapse">
+            <div class="panel-body">
+               
+                    <!--#include file="tabs/faq.iws" -->
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+
+
+    </div>
+
+        </div>
+
+
+    
+
+        <!-- FOOTER -->
+        <!--#include virtual="/personas/home/includes/footer.iws" -->
+
+
+        <script type='text/javascript' src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <script type='text/javascript' src="js/main.js"></script>
+        <script type='text/javascript' src="js/lightbox.js"></script>
+
+        <!-- JavaScript jQuery code from Bootply.com editor  -->
+        
+        
+     
+        
+    </body>
+</html>

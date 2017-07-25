@@ -45,7 +45,7 @@
         <div class="seccion1">
             <div class="row">
                 <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
-                    <h1 class="t1">_Conexión ilimitada</h1>
+                    <h1 class="t1"><span>_</span>Conexión ilimitada</h1>
                 </div>
                 <div class="col-lg-9 col-md-9 col-sm-6 col-xs-12">
                     <p class="t2">_consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum soci is natoque penatibus et magnis dis parturient.</p>
@@ -53,7 +53,7 @@
             </div>
 
             <div class="row">
-                <div class="col-lg-12 text-right margin-t-40" >
+                <div class="col-lg-12 text-left margin-t-60" >
                     <a class="t3">Ver oferta controlada</a>
                 </div>                
             </div>
@@ -63,15 +63,15 @@
 
         <div class="seccion2">
             <div class="row tabs">
-                <div class="col-lg-3 col-md-3 col-sm-6 hidden-xs tab" data-key="1">
+                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs tab active" id="tab-1">
                     <p class="t1">Plan</p>
                     <h1 class="t2">25 GB</h1>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 hidden-xs tab" data-key="2">
+                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs tab" id="tab-2">
                     <p class="t1">Plan</p>
                     <h1 class="t2">Ilimitado</h1>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-6 hidden-xs tab" data-key="3">
+                <div class="col-lg-4 col-md-4 col-sm-4 hidden-xs tab" id="tab-3">
                     <p class="t1">Plan</p>
                     <h1 class="t2">Ilimitado HD</h1>
                 </div>
@@ -79,22 +79,39 @@
 
             <div class="content-tabs">
                 
-                <div class="tabs-1 row">
+                <div class=" content-tab row" id="content-tab-1">
 
-                    <div class="col-lg-4 col-md-3 col-sm-6 col-xs-12 col1">
-                        <p class="t1"> Redes y música <span>ilimitadas</span>:</p>
-                        <p class="t1"> Cuota de datos libres:</p>
-                        <p class="t1"> Minutos y SMS:</p>
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 padding-t-40">
 
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col1">
+                                <p class="t1 padding-t-10"> Redes sociales y música <span>ilimitadas</span>:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col2">
+                            <p><img src="img/redes-sociales1.png" class="img-responsive"></p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col1 ">
+                            <p class="t1 padding-t-25"> Cuota de datos libres:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col2 ">
+                            <p class="t1"> 25 GB</p>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col1">
+                            <p class="t1"> Minutos y SMS:</p>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 col2">
+                            <p class="t2"> Ilimitados</p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="col-lg-5 col-md-3 col-sm-6 col-xs-12 col2">
-                        <p><img src="redes-sociales1.png"></p>
-                        <p class="t1"> 25 GB</p>
-                        <p class="t2"> Ilimitados</p>
-                    </div>
-
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col3 ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col3 ">
 
                         <p class="t1"> Precio normal</p>
                         <p class="t2" > 25.990</p>
@@ -109,18 +126,18 @@
 
                 </div>
 
-                <div class="tabs-2 row">
+                <div class="content-tab row" id="content-tab-2">
 
 
-                    <div class="col-lg-9 col-md-3 col-sm-6 col-xs-12 col4">
-                        <
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 col4 padding-t-30">
+                       
                         <p class="t1">El plan es totalmente</p>
                         <p class="t2"> ILIMITADO</p>
                         <p class="t3">en GB, Minutos y SMS.</p>
-                        <p class="t4">Disfruta de una navegación ilimitada con <span>calidad optimizada</span>, sin tiempos de espera, para tener una mejor experiencia. <img src="img/icon/info.png" /> </p>
+                        <p class="t4">Disfruta de una navegación ilimitada con <span>calidad optimizada</span>, <br/>sin tiempos de espera, para tener una mejor experiencia. <img src="img/icon/info.png" /> </p>
                     </div>
 
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col3 ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col3 ">
 
                         <p class="t1"> Precio normal</p>
                         <p class="t2" > 32.990</p>
@@ -134,23 +151,24 @@
 
                 </div>
 
-                <div class="tabs-3 row">
+                <div class="content-tab row" id="content-tab-3">
 
-                    <div class="col-lg-9 col-md-3 col-sm-6 col-xs-12 col4">
+                    <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 col4 padding-t-30">
                        
                         <p class="t1">El plan es totalmente</p>
                         <p class="t2"> ILIMITADO</p>
                         <p class="t3">en GB, Minutos y SMS.</p>
-                        <p class="t4">Disfruta de una navegación ilimitada con <span>alidad HD</span>, sin tiempos de espera, para tener una mejor experiencia. <img src="img/icon/info.png" /> </p>
+                        <p class="t4">Disfruta de una navegación ilimitada con <span>Calidad HD</span>,<br/> sin tiempos de espera, para tener una mejor experiencia. <img src="img/icon/info.png" /> </p>
                     </div>
 
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col3 ">
+                    <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col3 ">
 
                         <p class="t1"> Precio normal</p>
                         <p class="t2" > 39.990</p>
 
                         <p class="t3"> Precio normal</p>
                         <p class="t4" > 29.991</p>
+                        <p class="t5" > Primeros 12 meses</p>
                         <a class="btn-accion" > [ Lo quiero_</a>
 
                     </div>
@@ -161,19 +179,28 @@
         </div>
 
 
-        <div class="seccion3" >   
+        <div class="row">
+
+        <hr class="hr_gray" />
+
+        </div>
+
+
+        <!-- SECCION 3 :: PLANES -->
+
+
+        <div class="seccion3" >  
+
             <div class="row">
             
-                <div class="col-lg-12">
-                    <h2 class="t1"> [ Súmale un <span>_equipo</span> a tu plan y llévatelo en cómodas cuotas </h2>
+                <div class="col-lg-12 text-center">
+                    <h2 class="t0"> [ Súmale un <span>_equipo</span> a tu plan y llévatelo en cómodas cuotas </h2>
                 </div>
-
-
 
             </div>
 
             <div class="row">
-                <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 col1">
+                <div class="col-lg-9 col-md-9 col-sm-9 col-xs-12 col1">
 
                       <div class="row carousel slide" id="myCarousel">
                           <div class="carousel-inner">
@@ -183,47 +210,48 @@
                             </div>
 
                             <div class="item ">
-                                <!--#include file="includes/telefono2.iws" -->
+                                <!--#include file="includes/telefono1.iws" -->
                             </div>
 
                             <div class="item ">
-                                <!--#include file="includes/telefono3.iws" -->
+                                <!--#include file="includes/telefono1.iws" -->
                             </div>
 
                             <div class="item ">
-                                <!--#include file="includes/telefono4.iws" -->
+                                <!--#include file="includes/telefono1.iws" -->
                             </div>
 
                           </div>
+
+                           <ol class="carousel-indicators">
+                            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel" data-slide-to="1"></li>
+                            <li data-target="#myCarousel" data-slide-to="2"></li>
+                          </ol>
+
                             <a class="left carousel-control" href="#myCarousel" data-slide="prev"><img src="img/carousel-left.png" /> </a>
                             <a class="right carousel-control" href="#myCarousel" data-slide="next"><img src="img/carousel-right.png" /> </a>
                         </div>
                 </div>
-                <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12 col2 text-center">
+
+                    <p class="t1"> Pago inicial desde</p>
+                    <p class="t2" > $149.990</p>
+
+                    <p class="t3"><span>+18 cuotas</span> de</p>
+                    <p class="t4" > $10.990</p>
+                    <p class="t5" > con cargo a la</p>
+                    <p class="t6" > boleta mensual(*)</p>
 
 
-                    <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 col2 ">
+                    <p class="t7"> Plan  <span>+</span> Equipo </p>
+                    <p class="t8" > $47.345</p>
+                    <p class="t9" > Primeros 12 meses <img src="img/icon/info.png"/></p>
 
-                        <p class="t1"> Pago inicial desde</p>
-                        <p class="t2" > $149.990</p>
-
-                        <p class="t3"><span>+18 cuotas</span> de</p>
-                        <p class="t4" > $10.990</p>
-                        <p class="t5" > con cargo a la</p>
-                        <p class="t6" > boleta mensual(*)</p>
-
-
-                        <p class="t7"> Plan  <span>+</span> Equipo </p>
-                        <p class="t8" > $47.345</p>
-                        <p class="t9" > Primeros 12 meses</p>
-                        <p class="t10" > boleta mensual(*) <img src="img/icon/info.png"/></p>
-
-                        <a class="btn-accion2" > [ Lo quiero_</a>
-
-                    </div>
-
+                    <a class="btn-accion2" > [ Lo quiero_</a>
 
                 </div>
+
             </div>
 
         </div>
@@ -287,7 +315,7 @@
        
 
 
-    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding ">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 nopadding margin-b-50">
 
         <div class="panel-group strecher-blue">
             <div class="panel panel-default">

@@ -21,6 +21,9 @@
     /* MARGIN AND  PADDING */
     /*******************************/
 
+    .nopadding{ padding: 0px; }
+    .nomargin{  margin: 0px; }
+
 
     /*////////////////// margin-0 /////////////////////////*/
 
@@ -162,6 +165,16 @@
     .padding-b-20{  padding-bottom:20px;    }
     .padding-l-20{  padding-left:20px; }
     .padding-r-20{  padding-right:20px;   }
+
+    /*////////////////// padding 20 /////////////////////////*/
+
+
+    .padding-25{    padding:25px; }
+    .padding-t-25{  padding-top:25px;   }
+    .padding-b-25{  padding-bottom:25px;    }
+    .padding-l-25{  padding-left:25px; }
+    .padding-r-25{  padding-right:25px;   }
+
 
 
 

@@ -141,6 +141,13 @@
     .margin-r-100{ margin-right:100px; }
 
 
+
+
+    /*////////////////// padding 10 /////////////////////////*/
+    .padding-lr-0{
+        padding-left: 0;
+        padding-right: 0;
+    }
     /*////////////////// padding 10 /////////////////////////*/
 
     .padding-10{   padding:10px; }

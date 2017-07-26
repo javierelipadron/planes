@@ -47,6 +47,25 @@ img{
   border-bottom:1px solid #CCCCCC;
 }
 
+.clear{
+  clear: both;
+}
+
+
+
+
+/*******************************/
+/* IMAGEN DE FLECHAS MOBILES EN TABS */
+/*******************************/
+
+
+.flecha-left img, .flecha-right img{
+   width: 24px !important;
+    height: auto;
+    margin-top: 20px;
+  
+}
+
 
 /*******************************/
 /* DEFINICIONES DE BOOTSTRAP */
@@ -164,11 +183,15 @@ img{
           border-bottom: 1px solid #13639B;
     }
 
+    .tabs-mobile{
+          border-bottom: 1px solid #13639B;
+    }
+
     .seccion2 .content-tabs{
       min-height: 250px;
     }
 
-    .seccion2 .tab.active{
+    .seccion2 .tab.active, .seccion2 .tab-mobile.active{
         -webkit-border-top-left-radius: 30px;
         -webkit-border-top-right-radius: 30px;
         -moz-border-radius-topleft: 30px;
@@ -178,20 +201,20 @@ img{
         background:#065F9D;
     }
 
-    .seccion2 .tab.active .t1{
+    .seccion2 .tab.active .t1, .seccion2 .tab-mobile.active .t1{
         color:#FFF;
         font-size:14px;
         margin: 0px;
     }
 
-    .seccion2 .tab.active .t2{
+    .seccion2 .tab.active .t2, .seccion2 .tab-mobile.active .t2{
         color: #FFF;
-        font-size: 36px;
+        font-size: 28px;
         font-weight: bold;
     }
 
 
-    .seccion2 .tab{
+    .seccion2 .tab,  .seccion2 .tab-mobile{
         -webkit-border-top-left-radius: 30px;
         -webkit-border-top-right-radius: 30px;
         -moz-border-radius-topleft: 30px;
@@ -200,19 +223,19 @@ img{
         border-top-right-radius: 30px;
         background:#fff;
         text-align: center;
-        min-height: 75px;
+        min-height: 80px;
         padding-top: 11px;
         padding-bottom: 10px;
         cursor:pointer;
     }
 
-    .seccion2 .tab .t1{
+    .seccion2 .tab .t1,     .seccion2 .tab-mobile .t1  {
         color:#DDDDDD;
         font-size:14px;
         margin: 0px;
     }
 
-    .seccion2 .tab .t2{
+    .seccion2 .tab .t2, .seccion2 .tab-mobile .t2{
         color: #DDDDDD;
         font-size: 36px;
         font-weight: bold;
@@ -232,7 +255,7 @@ img{
 
     .seccion2 .col1 span{
       color:#13639A;
-      font-size:16px;
+      font-size:14px;
     }
 
     
@@ -513,8 +536,22 @@ img{
     }
 
 
+    /*----------------------------*/
+    /* COLUMNA CAROUSEL COL2 */
+    /*----------------------------*/
+
+    .seccion4{
+      text-align: left;
+      margin-top: 40px;
+    }
 
 
+
+    .seccion4 .t1{
+      color: #777777;
+      font-size: 16px;
+      margin: 20px 0;
+    }
 
 
 
@@ -843,9 +880,138 @@ table.velocidades {
 
 
 
-@media  (max-width: 786px) {
+@media  (max-width: 767px) {
   
-  
+    .xs-center{
+      text-align: center;
+    }
+
+    .margin-xs-t-10{
+      margin-top:10px;
+    }
+
+    .margin-xs-t-20{
+      margin-top:20px;
+    }
+
+    .seccion3 .t0 {
+      font-size: 22px;
+    }
+
+
+    .seccion2 .col1 .t1 {
+      font-size: 12px;
+      text-align: center;
+    }
+
+     .seccion2 .col1 .t2 {
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .seccion2 .col2 .t1 {
+      font-size: 34px;
+      text-align: center;
+    }
+
+    .seccion2 .col2 .t1-ilimitado {
+        color: #00599F;
+        font-size: 28px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+
+    .seccion2 .col2 .t2 {
+      font-size: 13px;
+      text-align: center;
+    }
+
+    .seccion2 .col3 .t1{
+      font-size:14px;
+    }
+
+    .seccion2 .col3 .t2{
+      font-size:16px;
+    }
+
+    .seccion2 .col3 .t3 {
+      padding-top: 0px; 
+      font-size: 10px;
+    }
+
+    .seccion2 .col3 .t4 {
+      font-size: 25px;
+    }
+
+    .seccion2 .col3 .t5{
+
+      padding-bottom: 0px; 
+      font-size: 10px;
+    }
+
+    .resena-equipo {
+        margin-top: 60px;
+        border-top: 1px solid #ccc;
+        padding-top: 20px;
+    }
+
+
+    .seccion3 .col2 .t1 {
+      font-size: 14px;
+    }
+
+    .seccion3 .col2 .t2 {
+      color: #F66000;
+      font-size: 22px;
+      font-weight: bold;
+  }
+
+  .seccion3 .col2 .t4 {
+    color: #00529F;
+    font-size: 33px;
+    font-weight: bold;
+     line-height: 30px;
+  }
+
+  .seccion3 .col2 .t5 {
+    font-size: 14px;
+  }
+
+  .seccion3 .col2 .t6 {
+    font-size: 14px;
+  }
+
+  .seccion3 .col2 .t7 {
+    font-size: 14px;
+  }
+
+  .seccion3 .col2 .t8 {
+      font-size: 33px;
+      font-weight: bold;
+  }
+
+  .seccion3 .col2 .t9 {
+     color: #00529F;
+    font-size: 14px;
+  }
+
+  .seccion3 .col2 .t9 img{
+     display: none;
+  }
+
+
+  .btn-accion {
+      font-size: 15px;
+      width: 85% !important;
+      cursor: pointer;
+  }
+
+  .btn-accion2 {
+      font-size: 15px;
+      width: 85% !important;
+      cursor: pointer;
+  }
 
 }
 
@@ -858,6 +1024,7 @@ table.velocidades {
 
 }
 @media (max-width: 480px) {
+ 
  
 
 }
@@ -883,5 +1050,13 @@ table.velocidades {
     width: 25%;
     padding: 10px 0;
   }
+
+
+  .seccion2 .col2 .t1 {
+      margin-top: 3px;
+      margin-bottom: -2px;
+  }
+
+
 
 }
